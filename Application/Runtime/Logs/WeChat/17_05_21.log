@@ -1,0 +1,100 @@
+[ 2017-05-21T07:32:25+08:00 ] 101.226.33.227 /index.php/WeChat/Api/handler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.344002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.344435s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_retvvn38ugbf3isc1nk04dnpq6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 119 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-05-21T09:36:40+08:00 ] 180.153.214.197 /index.php/WeChat/Api/handler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.339975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.340422s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_9eqao1cqq619nkmd3sumfl0bs4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 119 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-05-21T17:05:20+08:00 ] 117.185.27.115 /index.php/WeChat/Api/handler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.352316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.352765s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_qlue337036hv040vvmtapjf4m5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 119 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-05-21T17:05:37+08:00 ] 180.122.147.29 /index.php/WeChat/Api/handler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008219s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_0qav503lvuc7pru8cenda7b892, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 119 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-05-21T17:59:08+08:00 ] 180.163.2.119 /index.php/WeChat/Api/handler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.010042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010394s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_2fprtmd884tco9ct45al3o2jk0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 119 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+

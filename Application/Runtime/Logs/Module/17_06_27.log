@@ -1,0 +1,471 @@
+[ 2017-06-27T04:02:32+08:00 ] 89.248.172.90 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.357186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.357674s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_qaagcb7iek0g92fgeqartdvbi1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T08:03:24+08:00 ] 119.23.150.148 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.345694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.346089s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_0mameprtmlfhs4vvgjgnluo9c7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T08:13:49+08:00 ] 42.156.251.187 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008618s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_5puqd8rnae0pt01ll8ft8n8o73, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:45:54+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008417s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_q69vi4shqf67jh3u4sogl664c1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:46:54+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008700s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_iqintkfsh08f5shglto8c8kgi0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:47:00+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009813s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_0atnuoi2mi7gkpevdebhp8ah00, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:47:01+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009085s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_a4pflta5v46lbechu0nqo8n0f2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:47:02+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009305s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_qj578o8485c69tb38iqvqsn0v1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:47:12+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008914s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_gsl613bulmjfotiaci20ff2m83, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:47:18+08:00 ] 140.205.225.205 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008406s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_vs3g8rs4d37qepdu3bfm83a3q7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:47:31+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008582s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_57pvj5duashvr353nu6a268pl1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:47:33+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found /var/www/wechat/vendor/houdunwang/wechat/src/WeChat.php 第 50 行.
+NOTIC: [2] simplexml_load_string(): 1 /var/www/wechat/vendor/houdunwang/wechat/src/WeChat.php 第 50 行.
+NOTIC: [2] simplexml_load_string(): ^ /var/www/wechat/vendor/houdunwang/wechat/src/WeChat.php 第 50 行.
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008786s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_uihd985jsdshnkbcdgtbteh912, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:47:40+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008756s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_8abh3mmnloogeuov7f8ro4i862, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:47:43+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008452s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_c7r01s4df7e72msubid9b2s7b3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T09:47:44+08:00 ] 140.205.225.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008157s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_8pfblo75dar2rpfjajfsnqth14, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:11:25+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.406808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.407264s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_vnetjajis1b44e0m0jv4a4f0v5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:15:50+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008641s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ac73iic4nnii85kgi8t0vef6q4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:17:32+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008977s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_v1sv1e7old1t73b98qskb4pl51, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:17:37+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008808s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_dml726kgfora9d4groc6cldd51, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:18:33+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008953s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ejkpvjhckpmqen3rcmun732914, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:23:01+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009209s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ubcs316hug7q1stv1e42h0iiq0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:25:40+08:00 ] 140.205.225.186 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008440s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_64ikmk0rlmd071h7bv1fhuvhb0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:26:15+08:00 ] 139.162.124.167 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009513s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_si87hgct39jm8ujeet8e5dub20, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:28:19+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009845s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_2cce5jq3qnote4ksjrlbispvo0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:28:46+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found /var/www/wechat/vendor/houdunwang/wechat/src/WeChat.php 第 50 行.
+NOTIC: [2] simplexml_load_string(): 1 /var/www/wechat/vendor/houdunwang/wechat/src/WeChat.php 第 50 行.
+NOTIC: [2] simplexml_load_string(): ^ /var/www/wechat/vendor/houdunwang/wechat/src/WeChat.php 第 50 行.
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008962s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_qp56o77m65iq0ccm1vfn8jm5b6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:31:10+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009121s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_tr44iqccsqoho7jdm41dpr4ui0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:33:09+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009996s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_3l9t6jaj35s4lh1bltb1gnvt94, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T13:33:39+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008486s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_3r0s3e4oh04s0kvit7s7ofknl3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T17:34:52+08:00 ] 61.135.165.41 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.358915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.359497s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_4lh1067orvkorj5c5fa2q6bm80, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T20:40:38+08:00 ] 114.249.209.44 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.356297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.356699s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_675qsil4sb99irfnd1386uhqq3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+
+[ 2017-06-27T22:37:28+08:00 ] 114.215.71.23 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.331258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.331647s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_593r8fc3mhpbb35ge9ittfvlc3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: mo /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 14 行.
+NOTIC: [8] Undefined index: t /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: class /var/www/wechat/Application/Module/Controller/EntryController.class.php 第 24 行.
+

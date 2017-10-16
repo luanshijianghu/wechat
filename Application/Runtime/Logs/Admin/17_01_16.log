@@ -1,0 +1,31 @@
+[ 2017-01-16T13:34:00+08:00 ] 120.25.103.140 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.342165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.342538s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_3isnv18ij6o11b7k912kl59qm4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+ERR: 无法加载控制器:Entry
+
+[ 2017-01-16T18:46:31+08:00 ] 140.205.225.184 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008555s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_69frq44if5fbpn3f751lid9lk0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+ERR: 无法加载控制器:Entry
+
+[ 2017-01-16T23:11:53+08:00 ] 103.53.168.238 /admin/images/tango.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+

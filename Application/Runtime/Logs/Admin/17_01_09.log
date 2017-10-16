@@ -1,0 +1,26 @@
+[ 2017-01-09T00:15:20+08:00 ] 14.117.45.56 /admin/phpmyadmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.346482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.346853s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_16gfeqja7rhuoldqm375jnaiu6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2017-01-09T13:44:37+08:00 ] 121.199.70.200 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008394s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_uce4c5an9bld23o0b5ipcis203, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+ERR: 无法加载控制器:Entry
+

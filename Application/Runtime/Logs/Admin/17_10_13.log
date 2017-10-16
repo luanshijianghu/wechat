@@ -1,0 +1,86 @@
+[ 2017-10-13T05:09:49+08:00 ] 128.72.76.67 /index.php/Admin/User/templates
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008421s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_r7makbgrj95c3mj7h8k95v6rs0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_module` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `wx_module`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_cloud` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: user_id /var/www/wechat/Application/Admin/Controller/UserController.class.php 第 64 行.
+SQL: SELECT * FROM `wx_cloud` WHERE ( cloud_id='%s' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-10-13T10:48:45+08:00 ] 14.17.69.133 /Admin.po?proceed=yes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007731s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_2n8cmkco73a2jh45iojbn75jl1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+ERR: 无法加载控制器:Entry
+
+[ 2017-10-13T10:49:29+08:00 ] 14.17.69.133 /admin/contextAdmin/contextList.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009911s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_a1ue1r4ol7qd4oc0e9k8dsf2p5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+ERR: 无法加载控制器:ContextAdmin
+
+[ 2017-10-13T15:05:14+08:00 ] 101.226.89.120 /index.php/Admin/User/templates
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008468s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_4qugvg1a4omb4lmmeqrktvd9l6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_module` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `wx_module`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_cloud` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: user_id /var/www/wechat/Application/Admin/Controller/UserController.class.php 第 64 行.
+SQL: SELECT * FROM `wx_cloud` WHERE ( cloud_id='%s' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005187s ]
+
+[ 2017-10-13T15:05:20+08:00 ] 101.226.99.197 /index.php/Admin/User/templates
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007931s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_46rv8bh85igui3qm88ciiovbv7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_module` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_module`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_cloud` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: user_id /var/www/wechat/Application/Admin/Controller/UserController.class.php 第 64 行.
+SQL: SELECT * FROM `wx_cloud` WHERE ( cloud_id='%s' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+

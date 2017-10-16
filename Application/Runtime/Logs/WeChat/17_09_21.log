@@ -1,0 +1,12 @@
+[ 2017-09-21T10:31:24+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=6eedefc7b6ba0c15ef7aa15921b789a8e863c33d&timestamp=1505961083&nonce=1997101787&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009213s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_2aukcoc0rn7695tem38fg85sv4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+

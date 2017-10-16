@@ -1,0 +1,2302 @@
+[ 2017-09-27T08:52:58+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=1ed79a8c31618a99fd1984e8245a2c1a77808332&timestamp=1506473578&nonce=760432337&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.010894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011442s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_j217jrnpg7fjq17ptksbo11gl7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-09-27T08:53:06+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=e79380933f0bd5e1c9fca0ab091fdc1f15c01139&timestamp=1506473586&nonce=1758626948&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008358s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_9q1efu9njce83aoieqreja5fj7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_keyword` WHERE ( keyword='我' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_text_content` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_text_content` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-09-27T08:53:16+08:00 ] 117.185.27.115 /index.php/WeChat/Api/handler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008291s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_5jbjhvr83klgljma0a3ekb1lg7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 119 行.
+NOTIC: [8] Trying to get property of non-object /var/www/wechat/vendor/houdunwang/wechat/src/build/Message.php 第 144 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-09-27T11:46:02+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=0416b5b24a9419de0f192ea3dbb3454ff773bea1&timestamp=1506483962&nonce=1736470262&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008622s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_u6ack912ohvr5rpf0f48akjev1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-09-27T11:46:09+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=fa51ded1d7c3f35e5637785345e84b2cdcf235cf&timestamp=1506483969&nonce=2132649053&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008589s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_cmsjh01r69j2clv04kt16u5l61, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-09-27T11:46:11+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=400e940aabebf872a12ec30cbac33b585572bfe9&timestamp=1506483971&nonce=1579111922&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008682s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_2l3ritu1lr77tka46jt0j3lhi0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-09-27T11:46:21+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=d20b0ab39af25398a76a4260f1991c532b6503ea&timestamp=1506483981&nonce=1853941617&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008378s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_j03uqkd94ld60flot00ihc8j95, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-09-27T11:46:22+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=70a13cdcc0036c25c6788f8e5b6fc8fe91acf172&timestamp=1506483981&nonce=1479503631&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.010217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010678s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_pkkrje751m4mkvie9fo89ojlj4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2017-09-27T11:51:08+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=ecd2da14b4b1ac5f8183ec39978d976e002fda39&timestamp=1506484268&nonce=1111005327&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.011075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011553s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_pcaaseboo2eq04k1v5821tpdg4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-09-27T11:53:02+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=0f171eab483dd75229dc8c5c51ff768e67732e35&timestamp=1506484382&nonce=1496975914&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008300s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_906qun3kna3m466hl6e3uefe03, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-09-27T11:53:03+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=71a6f81f2a0be046397027e4a162b4a96906ebc6&timestamp=1506484383&nonce=779826584&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009845s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_2hqqfdkmebc4ivnj5aet71khg4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_keyword` WHERE ( keyword='我' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_text_content` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_text_content` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-09-27T11:53:05+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=6ccee87b8f0335689206ea1817b429e0660c2775&timestamp=1506484385&nonce=485937983&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009021s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_kfurh8a6jf8kpc3nnddefogks2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_keyword` WHERE ( keyword='谁' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_text_content` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_text_content` WHERE ( rid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-09-27T11:53:10+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=6980e3a0ebda524d4814f882b4480a7b27e63c4f&timestamp=1506484390&nonce=56429689&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008169s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ebjdfo4fqisn2146uqhticn8d2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-09-27T12:08:14+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=90b9dcc565df3c8f1b3c7b7d38e0c7330af336bd&timestamp=1506485294&nonce=18472961&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008346s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_obvdt4717rh4vhdrj7r4nmuur6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-09-27T12:08:15+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=38719ac976fe0c68f3d4be3941a50f1a30decd39&timestamp=1506485295&nonce=1711558713&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.010536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011070s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ar7trr4o8ae5l4lki5fr9pv9d2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-09-27T12:08:39+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=33a1ca72fd4f7cd1ece7eb459127a5fca105bce7&timestamp=1506485319&nonce=137995717&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008543s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_v3cmu73gk6nmg8gp8bvi08nfj0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-09-27T13:51:26+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=2ad308df0c06b3c644b345662573dde74df9ebba&timestamp=1506491486&nonce=2002421318&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009901s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_scoc5s2lvnv154bn9jnoo0rak7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-09-27T13:51:27+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=49b08a3822b7b40e0c36f058c99303df6b70ddb8&timestamp=1506491487&nonce=470053641&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008220s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_8hrs5f9v5emp4eqr8n0t3r7hg4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_keyword` WHERE ( keyword='我' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_text_content` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_text_content` WHERE ( rid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-09-27T13:51:31+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=7f0da79ee023de3529b90178945a2d6c1791fe1e&timestamp=1506491491&nonce=1050216548&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008280s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_lbnc07e48a19u1ekkrjrtvtf42, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-09-27T13:51:31+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=376e20208ec66e3263d77028c9147db84991cb45&timestamp=1506491491&nonce=890293328&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010028s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_sgorg3l8d9iafosbv1tt325t85, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-09-27T13:57:25+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=9e8f6e0f6c0698322ab900d9c96469cbf0a60a7b&timestamp=1506491845&nonce=1537018779&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007955s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_k1d6cq3so2sbf92g2rvem08s56, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-09-27T13:57:25+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=22a5628047d42e96e482e010ddee877ee46f8263&timestamp=1506491845&nonce=1677893796&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009353s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_2plutqr323v6a38hqu00dn6186, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-09-27T13:58:05+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=12bd12fb9c4bd65d9e3a9480301aefa991f9644c&timestamp=1506491885&nonce=1439733941&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008699s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_csle3jogh7fuq2l7a37mniltb7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-09-27T14:07:31+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=0f146d0b06a754922daa91be6c2a6020ff00c100&timestamp=1506492451&nonce=1198987416&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008476s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_04snado5381e1o520fh1aj5ek0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-09-27T14:07:31+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=3f5847035dcda584a99f3d7d3a7c7c2bbac1a866&timestamp=1506492451&nonce=1684809293&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008570s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_3dl502dn0556sk9gfol21jqld1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-09-27T15:23:05+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=502bbdf96da49555ecdccdeb589ca7626a933c5b&timestamp=1506496985&nonce=83388956&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008772s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_485oi1abo17g51h28tsd9oukr0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-09-27T15:25:57+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=11554fc9599a3e29996467d5778b49f91eef7d67&timestamp=1506497157&nonce=1750711417&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008536s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_fnv8fh8ajn660sl4cneq24qa80, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-09-27T15:25:58+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=f625076208315cbc285a2c0ac7c78c8e6058a572&timestamp=1506497158&nonce=1407441069&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009195s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_7gd54ipd485nm7rovju79g6ko2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-09-27T15:26:07+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=3e6bb84a0aefaefe95c84a41a49f080c16f28641&timestamp=1506497167&nonce=1822682748&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009138s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_25p5e9st7iq1brk1gvg0a7uk23, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-09-27T15:40:45+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=ae8659720c9fc9cf0e4c5057f95256f4ea6a9020&timestamp=1506498045&nonce=2083304378&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008296s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_21gmjnd4qp0748feebakkldre6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-09-27T15:42:15+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=4153b41b941fe981a52a7f23af75e8e7814c0de5&timestamp=1506498135&nonce=1259561505&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008306s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_38tt1elka32pqk0crqecobls65, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-09-27T15:42:15+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=0a6f9e0c1874f5240e3c7d905df3b9307e84167e&timestamp=1506498135&nonce=2127950768&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007866s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_47e8t5njbnl2q1ajree6k81rl1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-09-27T15:42:49+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=50fda427ff8556b1708f1cd5fb9b5bfb89192673&timestamp=1506498169&nonce=1554571618&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008732s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_oak0j01jo5tv9hpm51e5o5kvn6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-09-27T15:42:51+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=7f9ab9b44a9035da6d49d34874622e692ccdf18a&timestamp=1506498171&nonce=1954726501&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008330s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_j12qj7k14rhejlfngq79thbat2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-09-27T15:44:01+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=b9a60525e7aa5952ee5c661cf3c604e59326421b&timestamp=1506498241&nonce=679155800&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007934s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_8bsckvhkfsqou02oa9mtaa4ag1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-09-27T15:44:02+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=729a462123bd3d2871e6aab37bfd9d1e6e37353b&timestamp=1506498242&nonce=33761763&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008486s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_2vm8j9pfjncn3p247lvv65qfh7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-09-27T15:46:36+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=c00090fc686bb1371ff848cbc1ef02814186838d&timestamp=1506498396&nonce=48546354&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008438s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_2pii7qsrj4e4dv27kadcljfjn5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-09-27T15:46:36+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=dbda7cb9725bc54783d4b55e30a27b240bce8a06&timestamp=1506498396&nonce=1563372700&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007893s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_9f67r5unkt1608826jocot4536, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-09-27T15:47:12+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=2952c169a0280f5ff31bd3d18ee6b528da3a2de4&timestamp=1506498432&nonce=415207929&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.447932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.448330s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_68stqffh8pc4nv58h4a0a24dl0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-09-27T15:47:13+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=f742560261fe6261199728c989bc2cfcf428a1c1&timestamp=1506498433&nonce=391881248&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.010651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011172s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_jdkuo1qp57q176k88dqnd49p92, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-09-27T15:47:37+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=aa15869d2a275a4356c155abf1741be3d2196986&timestamp=1506498457&nonce=602437288&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.017536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017908s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_n6kp39dsqkqj540u9lsr1qjvc5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-09-27T15:47:37+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=89f1fa2b9415064e0c3ccb53c5b29dca4aa12d9c&timestamp=1506498457&nonce=807941438&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014276s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_vadj5qopg1meu1l1gjc3o59cq5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-09-27T15:47:54+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=60c3372db3a68db70b99de58510fdd1f33565f3c&timestamp=1506498474&nonce=1395853067&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008043s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ddrpob32ei9b8oe4l35dtr4507, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-09-27T16:10:09+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=b80bd05a4fc18add8da3fd51824e5e2a0170986f&timestamp=1506499809&nonce=589719787&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008529s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_1gvuo2mpn04esisph1hutd1dp2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-09-27T16:13:28+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=7d909ebd7570ea420f2ba04290c10c64b4535b1e&timestamp=1506500008&nonce=1926522614&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008682s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_bs6dlcbg43ktl2h2qebn6cgtj2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-09-27T16:20:41+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=1cfbe436bdf48ef77521f158f14c763572d1af30&timestamp=1506500441&nonce=909015667&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008832s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_b36mrttv83kn8sr8986uqgu6o7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-09-27T16:20:59+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=72bffbca7fc3589e0d1b8538d9f6795c00486396&timestamp=1506500459&nonce=1362339310&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008812s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_njs8hst25gqnh1c6vbrf5cudr0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-09-27T16:21:01+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=a5e96b64d3ab59ba33c74641f04c0ecad0d0baae&timestamp=1506500461&nonce=1680117519&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008310s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_94ld8b9qhco5af8jb03v3g8eb2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-09-27T16:21:29+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=1ca42dc3ade6ae63ce5bf1d1742817f61d6243c7&timestamp=1506500489&nonce=970223394&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007968s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_hhljdmvf365v84vsvg1gfpnag4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-09-27T16:21:29+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=ef199d57b36fea99debfae5fc7b7e34404908126&timestamp=1506500489&nonce=98335912&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008428s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_raqk56jv17anvb6krve5gh3er0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-09-27T16:23:09+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=33344eb6ce61d31ebe1cc3b4a1bcd6686e8a7c0e&timestamp=1506500589&nonce=1264894866&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007982s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_5kol4tntst946kf07uo9i1qnd4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-09-27T16:23:09+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=af1e4166c6a43a13ac33e2bee18e575470627ca6&timestamp=1506500589&nonce=563723209&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008026s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_mj5pjq6psbki3h3mpiob13r8k0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-09-27T16:31:17+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=6848adee74d92a524687e593c728bc257c6dc51d&timestamp=1506501076&nonce=924320517&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008173s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_8urf2upg2l5h08br20mth280q6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-09-27T17:03:36+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=b204bdbd7d8b22e4ebb308f3a923afbf849208c4&timestamp=1506503016&nonce=434931581&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008504s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_hdbjattl17spem8t11bp535do3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-09-27T17:03:46+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=5b90f6de862a50bfadbbbbeb6ae1cd4501d2090a&timestamp=1506503026&nonce=866072809&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008115s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_0btqo6m9cjgko5manrfo0b6o56, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-09-27T17:04:31+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=a85ffd41bf8a63415940b9da9cb05169647ad81f&timestamp=1506503071&nonce=1287141591&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.010357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010905s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_6dda0j3njir26s06jqrd21oa61, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-09-27T17:04:46+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=2ffb9a17c590f0638a01a30a0af92a249208ecb2&timestamp=1506503086&nonce=920605128&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008354s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_8glcg7nr741mhh2b2p5f2cc3r5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-09-27T17:17:13+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=619cc217d85e772e90304ff017857bb9cc5b3348&timestamp=1506503833&nonce=631759717&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008947s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_c0e0ke1rkp12tl853ji25rcrp4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-09-27T17:17:14+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=a9a2b1a1713c1b5fbb63c264d4e8f286a95bf9af&timestamp=1506503834&nonce=98323101&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008730s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_jvinkgdeetq88th2ipq907e3i7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_keyword` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_keyword` WHERE ( keyword='谁' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wx_text_content` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_text_content` WHERE ( rid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-09-27T17:17:16+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=1e641b2ba8df49fc20a5c796e4532e252f823d3f&timestamp=1506503836&nonce=47742076&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008532s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_1ijnmb5sr621pgtjg6lrua2ia4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-09-27T17:17:21+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=927fbbb63b4137b00d7d36681870c00c3a95e821&timestamp=1506503841&nonce=240756819&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008025s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ls5ibnqg3kd7rh0pbh3tdkj1u4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-09-27T17:17:22+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=952dc85bd0b4081ff88ccf8a6d3e8db76f07e7e0&timestamp=1506503842&nonce=1973117849&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008069s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_olnk5jfgtuip5pemo42pp5nqk7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-09-27T17:28:55+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=793ff56d9d6f8efb4b32d3f5beee4ddcb53b84de&timestamp=1506504535&nonce=1608462477&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008084s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_l0vjo24ppdcfuqi9f70sktpmv7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-09-27T17:28:55+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=e4af183d1b16dfac95e626fd4865ad7d1a031464&timestamp=1506504535&nonce=1908444444&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008106s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_an24q4ui77t8ih42r0sl6icjm5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-09-27T17:29:12+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=51d5471c42486340db124ac620d123bd32d514e7&timestamp=1506504552&nonce=1528301021&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008298s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ab768hlipnp4in79fvaim87gu1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-09-27T17:31:17+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=ce4ed99d92af6e5ce2007ce20b98f03b0e5b8b69&timestamp=1506504677&nonce=47063706&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008238s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_45u3ealmj3bllfjhdmpumv4im4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-09-27T17:32:00+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=f69d1c017dd374494f9fc382e6d0490942037953&timestamp=1506504720&nonce=1075028701&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008323s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_16v52jdoq80ptjad8ie7i8nqj3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-09-27T17:32:01+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=d4fd668583fa55511c5fa3ca3c3e384941e65356&timestamp=1506504721&nonce=486541851&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009367s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_16t7e03abfr1d4a1t80676ce40, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-09-27T17:33:27+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=bb2d7056d9eddd1d70d5eddf443985726abad41b&timestamp=1506504807&nonce=493152980&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008581s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_vh380099f8pl6bghlqavote720, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-09-27T17:33:27+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=2acb5f1b8dabcd01e91863942896274027dc8182&timestamp=1506504807&nonce=1634559468&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008304s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_v2kgd56toli7pslfpguuaf0k86, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-09-27T17:33:35+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=5bcb910b739fa18b17e12bed1bda9e9d9bf45bc9&timestamp=1506504815&nonce=723447016&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008097s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_n28r1h035hn0g72tk67lsh4t24, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-09-27T17:34:14+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=3cdd83dbc29ae991553f620b8602b97e2b1e1db8&timestamp=1506504854&nonce=1027055231&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008277s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_qq3otpkkdku0ihgm81oovvfla2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-09-27T17:34:14+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=c0fd62bf6c0e991c39323190e7eb4e9aa99bead7&timestamp=1506504854&nonce=1987433947&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008188s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_05lcaqsla4vtb10ki7v3dh2ue3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-09-27T17:35:24+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=51178c27a305516306253afa26590661e6eb50e6&timestamp=1506504924&nonce=668747431&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010531s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ks4461kqi8bequd624gd7pd623, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-09-27T17:35:25+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=fc5caa36d97757503f891d38eef7d0217a98fa8c&timestamp=1506504924&nonce=724341979&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.011646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012172s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_8mob70ml87mhdm9d62topuceb3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2017-09-27T17:38:28+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=fd603c5a2094ef16fecbe65cd13c6bc7be0fdab3&timestamp=1506505108&nonce=1098073911&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008543s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_d5172838bqcs9ll0lv0e2e55p0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-09-27T17:38:28+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=a1e01cc7f84a75d7b130b8950a63bdb470f73b9c&timestamp=1506505108&nonce=268304973&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009450s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_osiu9ld7gs546m5ik8f63gruv5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-09-27T17:39:38+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=162a443c72f3c49f2c477bdddb1f20ff93e1138b&timestamp=1506505178&nonce=1880343694&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008094s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_3bl4c5ekqh583gvrtnn810fvp2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-09-27T17:39:39+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=0713a69ce18dba19cf12d1c87b58efa30cfa185f&timestamp=1506505179&nonce=195407687&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008097s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_td1ro2tpp3i268h5p2l4hc3ce0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-09-27T17:40:13+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=6ab9975172aee9942d6a3f383025350fdf0c34ad&timestamp=1506505213&nonce=861071895&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008861s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_s8qg0ce309pcp5too8645a1ai2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-09-27T17:40:14+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=8e1b4d786509db41523828586526a3e82db7fea0&timestamp=1506505214&nonce=1013383387&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008466s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_jc2oeh6ih4dvsmupe3ca8eja75, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-09-27T17:40:43+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=f7c8e85051b43abc31014229b2759397b0a66e3f&timestamp=1506505242&nonce=2059372087&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008073s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_9onbu46ft6ai016cdg37dj67r7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-09-27T17:40:43+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=ee84071b790a4f87f35da6ca48efeb5e5115c1da&timestamp=1506505243&nonce=1479716786&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008015s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_oc7f3kspf5n38oi2qatq79me80, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-09-27T17:42:05+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=54783de884fc3018c908d37fb174acfd3264d135&timestamp=1506505325&nonce=240009277&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.010325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010849s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_5ts5q6samak5pm4th34foubjb7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-09-27T17:42:05+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=700c6c05001173674a3fac73dbf5ea02f191d2b2&timestamp=1506505325&nonce=544299791&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008797s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_kh04qpkmqrdvr6kb7k5je08d37, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-09-27T17:43:16+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=c78e5b3888fcbc9815079a83736c711f048afd6c&timestamp=1506505396&nonce=823687667&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008220s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_rs9qpfl9qrrneghgprvkgme331, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-09-27T17:43:17+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=5bc0abdbb7971dcf8949e1530a585461c5b835b3&timestamp=1506505397&nonce=1312123361&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009952s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_gov31612r93u2lqckifmh4b451, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-09-27T17:43:24+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=f245c3ac5ae83da77e26635a7915a4bb94e449f1&timestamp=1506505404&nonce=868422530&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008879s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_sencpe1ukl30c7iglcmlle0c64, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-09-27T17:43:57+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=5655f91ad48b5bbffce09bcadc40f322aaafe049&timestamp=1506505436&nonce=2076666885&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.340508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.340886s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_vi3om1vu1oh1mqbbq16pqcdo45, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-09-27T17:43:57+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=81a893be964cf7156f9a6ff8f8b3bab53defeec2&timestamp=1506505436&nonce=1206011992&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.346811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.347187s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_d5763t671mjjg9p76rvd1vfkq4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-09-27T17:44:04+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=f4fe6f4a567cf685e8145307cafcfc1df7482e82&timestamp=1506505444&nonce=572449142&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009145s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_0n0jkdpeoia29nh3tkoam08oh2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-09-27T17:57:41+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=3906f18821073f6fe4751746257733e1686a7994&timestamp=1506506260&nonce=2046909287&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010010s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_44nb5h172unlb44pm8v04glhe7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-09-27T17:57:44+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=41a97340a2e4525a32dbf88e27fba53f9874cae9&timestamp=1506506264&nonce=1069221066&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008035s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_kvn5e90vrh2ou7sm44uic14bg3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-09-27T17:58:14+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=039421e06c4288fdb370e72f78df9d6efd79ebf5&timestamp=1506506294&nonce=1278828280&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008405s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_cvk6pksb8j9qt2c4oh93283db2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-09-27T18:00:09+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=b6ef50d80ec7571b2278bff9c86442b2b2cfdaa8&timestamp=1506506409&nonce=618249292&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009747s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_36sibn3jvd7t43p5bm6odb8066, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-09-27T18:00:10+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=0782c2129da22c6a8a5a79c4d6d6a7e13f2e16ca&timestamp=1506506410&nonce=1763144335&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008491s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_0glrclf3n55anddun0fk0qhll3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-09-27T18:01:19+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=9314b33352d8aeeca5cdcc782ad297830801c283&timestamp=1506506479&nonce=603752037&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009217s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_15bicnkg8qhd6574t7kh0bve71, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-09-27T18:01:20+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=96809b5d47ee0d345fca5620b81a2ac731a58fde&timestamp=1506506480&nonce=26383003&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008105s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_dtdko2ud7gbelgl95rn5navco0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-09-27T18:02:30+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=d5b0a1a503e77b0570c16fce0be7297526e8e2c0&timestamp=1506506550&nonce=2043308133&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008691s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_neroqeaana3i2k4avtkmt9kcl4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-09-27T18:02:31+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=0cc94a9a383b9061a8e6e283df44e5efb7c2e7e1&timestamp=1506506551&nonce=1598423943&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009184s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_kmbg07nna3emge7ltqb1eqiqj4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-09-27T18:03:47+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=729d5fc7600e94f7f804ab0958cad82184fb709d&timestamp=1506506627&nonce=146951598&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008665s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_r5s3qtdra2se9jhomraeec1mg0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-09-27T18:03:48+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=31a8b56a33e2d79f8299b8c9633a0608c50623c7&timestamp=1506506628&nonce=5730430&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.011983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012520s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_3chr3gabf6mm3sf0qva6dsbgr2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-09-27T18:04:01+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=52a359a208c5ecd1a4aa1e4905710ff17d75061b&timestamp=1506506641&nonce=213209423&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009171s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_dcr59n10pk7m6rp7sjp39ldc11, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-09-27T18:05:35+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=409429bce24d206467390a3caf46fdceb0a4d2b6&timestamp=1506506735&nonce=277057671&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.014937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015274s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ghv0ric5lac0719ivkl7nve8g2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-09-27T18:05:35+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=8b79d0fb78203820258fa6841bc926a66c81f030&timestamp=1506506735&nonce=1205199293&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016305s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_foa7s3ljm3q0g5d87j7stdcrg6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2017-09-27T18:07:45+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=4a84cb8193a38467f44ac8a2f536cb302c3cf1c9&timestamp=1506506865&nonce=842437766&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008297s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_bf00h90f11oie0fdh38k6k5421, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-09-27T18:08:02+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=7b45741b17733d72fb9f63d04e9e9ec086618885&timestamp=1506506882&nonce=877460154&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010019s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_nfc37a51cb9f4uobi37hbc23v1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-09-27T18:13:34+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=702546dac559cdaa05d52892a004abde8e8faca8&timestamp=1506507214&nonce=798268187&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008042s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_1oh466rgnq4jepuabctlu1ju04, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-09-27T18:13:52+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=c51eff25ea35d30a80db47b732d9509af8b2967b&timestamp=1506507232&nonce=1276702882&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008339s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ab60o5kll31gja9ql9b4gafoi5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-09-27T18:14:34+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=9885e6483834ffeb128b2541465da3afd4c7bf60&timestamp=1506507273&nonce=909968932&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008202s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_6knbjkp0n3p9q1ecahhklpedm2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-09-27T18:14:35+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=37c8d22fdc64663c5c2998aff17987163ace5caa&timestamp=1506507275&nonce=108630001&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.010076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010511s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_jo4o6h7t1n81ecgqrkhva8plv3, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-09-27T18:15:17+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=a171ec0f722f22252d884c15a0ba8250fedf451e&timestamp=1506507317&nonce=462297859&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.011808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012348s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_l5gmci5tlvnuuut9h28a1er6g2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-09-27T18:15:22+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=24e0ab6560722303683548518999c1103151b2e6&timestamp=1506507322&nonce=352853301&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008718s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_46iu6t1d00bn1vq362eeaacn50, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-09-27T18:25:08+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=1934e7251d5cc180c0cd471f6cc67263c4ea3904&timestamp=1506507908&nonce=2105762370&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008811s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_gqeam4hgnlaal6d9khanavc5s6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-09-27T18:26:14+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=a2ab30c20f17358544520ec73221e1252503fe30&timestamp=1506507974&nonce=1236760176&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018195s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_fkj38im2ru5k9del83efv218d2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-09-27T18:26:14+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=6f765c9ae856ba2c5ab1d6d44bf5fd4702424aff&timestamp=1506507974&nonce=693049187&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.016206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016555s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_0ikbfj81dq0gauhk794576iir4, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-09-27T18:31:21+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=f6cafb410de98626770bad50127945aa39c26268&timestamp=1506508280&nonce=363738513&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008697s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_nr64tbcdt8n89fcpd6odf4t0p6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-09-27T18:31:21+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=0ba796b0b4f7bd2e91128bcd1e74fcdf456d7785&timestamp=1506508281&nonce=1205272615&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009071s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_cnc021grpvfiajej3cen3mub17, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-09-27T18:32:01+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=e43e2815a78335062343210ac0bd2452ca4e4631&timestamp=1506508321&nonce=1775899585&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008296s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_09ft0vcbo8g3cc63a15gdglcc0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-09-27T18:32:02+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=067c81e1a4ee1e81a9835a1da7c77c0c6382bb82&timestamp=1506508322&nonce=2087679636&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.010116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010519s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_s0oqj55aidisq5ql3e8juieo33, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-09-27T18:39:36+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=c6f7ac936fac66e43d22d420708c1b4cc057e629&timestamp=1506508776&nonce=1248707292&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009662s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_tgfe16f5lhdpqi92igifu56ih7, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-09-27T18:39:37+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=49dd1c8ea8dc33610523bc41ca4da0dd4c120ae0&timestamp=1506508777&nonce=974487059&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008312s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_tk5qq6k1savi6l6ncah366q5u0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-09-27T18:42:36+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=2f30565979c3588fb407386424d9193a76d328c5&timestamp=1506508956&nonce=1002147000&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009528s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_p1pktd9fb2oi240k6lr105o3r6, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-09-27T18:42:37+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=23157b1f1ce9eadc3be57a6d85388da06d0f6da7&timestamp=1506508956&nonce=223878902&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008233s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_88cgfg2uo5orl93o07avql4p64, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-09-27T18:47:22+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=600ee23e4445bcd191c27d3ab5805f2225d1117f&timestamp=1506509242&nonce=1717060934&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008344s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_h2oga921134fj8nv0f9f0rqm26, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-09-27T18:47:22+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=568ebb52d31bb789af3a255eeb0dcc99ee5f1882&timestamp=1506509242&nonce=2033939837&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008521s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_um0grtr12u33oau32qilqcrub1, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-09-27T18:47:36+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=e12ceab5ba218ab3b8f8dff00aca8d2eb6ca685e&timestamp=1506509256&nonce=431907025&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007982s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_lk5ksclgp3c8s25jq9ri764r24, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-09-27T18:49:01+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=5a1bb7e32ab431b67240ffeea1f0acc25715c7e9&timestamp=1506509341&nonce=69115366&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008570s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_a8stuiqo097g6f1bo2s9ts3v24, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-09-27T18:49:02+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=51bc23b4823067b5cd0fff06a1e44d67408f5749&timestamp=1506509342&nonce=1065408299&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008101s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_l193mfji5ms2h812h4f56tvfr2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-09-27T18:49:15+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=ebf4a8e8a4ba80695de6416cb6817298ee9cbd85&timestamp=1506509354&nonce=162952320&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.013338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013976s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_07vajcqfvuaicfbmsgumbg07k2, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-09-27T19:00:43+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=b64c10ba2ea0a57d86997e3eb913c61e2e65bb14&timestamp=1506510043&nonce=1042748521&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.009723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010090s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_b7nmsiejhtmvjt6rc1u9cv8t85, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-09-27T19:00:44+08:00 ] 140.207.54.80 /index.php/WeChat/Api/handler?signature=bad1b40d91ae3eb3b9a23bad19e11b77c03b1223&timestamp=1506510044&nonce=1628457992&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008076s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_l2ggq0mcs2n85gkl0q1dlo6u06, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-09-27T19:00:55+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=7ab33febd27f690fdd6081142121ec4b412ff995&timestamp=1506510055&nonce=525130433&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.008149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008552s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_ovn6bqof8qjrks8l2r9g0ejkb0, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-09-27T19:12:40+08:00 ] 140.207.54.79 /index.php/WeChat/Api/handler?signature=20627e35b1636157a847994481e56074e88f8d32&timestamp=1506510760&nonce=1641488397&openid=oG40tuD3S3jwPEDbpsLs0LmnRjH4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `wx_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wx_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Common\Behaviors\AppBeginBehavior [ RunTime:0.007831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008174s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_h2achhds8kn2hjb7mgs6mgofj5, O_RDWR) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] session_start(): ps_files_cleanup_dir: opendir(/var/lib/php/session) failed: Permission denied (13) /var/www/wechat/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_base_system` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wx_base_system` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+

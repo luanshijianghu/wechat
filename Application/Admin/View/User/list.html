@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-dark">
+<head>
+    <meta charset="utf-8" />
+    <title>微信解绑</title>
+    <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/font.css" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/app.css" type="text/css" />
+    <!--[if lt IE 9]>
+    <script src="__PUBLIC__/js/ie/html5shiv.js"></script>
+    <script src="__PUBLIC__/js/ie/respond.min.js"></script>
+    <script src="__PUBLIC__/js/ie/excanvas.js"></script>
+    <![endif]-->
+</head>
+<body class="">
+<section id="content" class="m-t-lg wrapper-md animated fadeInDown">
+    <div class="container aside-xxl">
+        <a class="navbar-brand block" href="#">非凡云绑定</a>
+        <section class="panel panel-default m-t-lg bg-white">
+           <table class="table table-hover">
+           	<thead>
+           		<tr>
+                    <th>序号</th>
+                    <th>非凡云账号</th>
+                    <th>操作</th>
+           		</tr>
+           	</thead>
+           	<tbody>
+                <volist name="list" id="v">
+                    <tr>
+                        <td>{$i}</td>
+                        <td>{$v.user_name}</td>
+                        <td><a class="btn btn-sm btn-primary" href="{:U('Admin/User/userdel',array('id'=>$v['id']))}" onclick="return confirmAct();">解绑</a></td>
+                    </tr>
+                </volist>
+           	</tbody>
+           </table>
+        </section>
+    </div>
+</section>
+<!-- footer -->
+<footer id="footer">
+    <div class="text-center padder clearfix">
+        <p>
+            <small><br></small>
+        </p>
+    </div>
+</footer>
+<!-- / footer -->
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script type="text/javascript" language="javascript">
+    function confirmAct()
+    {
+        if(confirm('确定要执行此操作吗?'))
+        {
+            return true;
+        }
+        return false;
+    }
+</script>
+<!-- Bootstrap -->
+<script src="__PUBLIC__/js/bootstrap.js"></script>
+<!-- App -->
+<script src="__PUBLIC__/js/app.js"></script>
+<script src="__PUBLIC__/js/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="__PUBLIC__/js/app.plugin.js"></script>
+</body>
+</html>
